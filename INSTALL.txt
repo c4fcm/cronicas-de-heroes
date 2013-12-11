@@ -1,0 +1,97 @@
+
+# Instructions for installing the Heroreports Website #
+
+
+## Infrastructure ##
+
+
+### Requirements ###
+
+The Heroreports codebase is written as a database driven web application in the 
+[CakePHP v1.3](http://cakephp.org/) framework.  As such, it relies on a server that runs:
+* HTTP Server (preferably Apache with mod_rewrite)
+* PHP v4.3.2 or greater
+* a database engine (MySQL, PostgreSQL, MS Sql Server, Oracle, SqlLite)
+* SVN (to check out the code)
+Tip: An easy way to set up a development computer is to install the 
+[XAMPP program](http://www.apachefriends.org/en/xampp.html).
+
+## Installation ##
+
+The code is stored in an [SVN repository on codebasehq]
+(https://c4fcm.codebasehq.com/heroreports/heroreports-cake/tree/head). This
+document will assume you're installing on linux, with Apache2 and MySQL.  
+We'll also assume you're installing to `/var/prod-www/mycity/`.  On windows 
+you could use C:\heroreports\.
+
+### Set Up a Apache and MySql ###
+
+1. Add a virtual host for your site by editing the httpd.conf file on your computer,
+adding an entry to the end:
+    VirtualHost *:88
+        ServerName mycity.heroreports.org
+        DocumentRoot /var/prod-www/mycity/
+    /VirtualHost
+2. Restart Apache to load this new setting.  On linux do this:
+    sudo /etc/init.d/apache2 restart
+3. Create a `heroreports_mycity` database on your favorite tool (we use 
+PhpMyAdmin). For the production server [here is a link]
+(http://www.heroreports.org/phpmyadmin/).  Make it utf_unicode so we
+can handle any language well.
+4. Create an db account called `hr_mycity`, and a password, and add
+all permissions for this user on the `heroreports_mycity` database.
+
+### Set Up a Subdomain for a Production Server ###
+
+First figure out what you want your URL to be (someplace.heroreports.org).  
+Then log into Linode and set up a AAA name record for that subdomain.  
+Do this even if you're hosting on some other server so that we have all 
+the network members linked to in a consistent way.
+
+### Get and Run the Code ###
+
+1. Go into `/var/prod-www/mycity/` and then checkout the code by running:
+    svn checkout https://c4fcm.svn.codebasehq.com/heroreports/heroreports-cake/trunk mycity
+2. Create a new `app/config/database.php` file (based on `app/config/database.php.template`).
+Set the login, password, and database properties of the `default` connection
+to those for the database you just created above.
+3. Create a new `app/config/heroreports.php` file (based on  `app/config/heroreports.php.template`).
+Open it up and edit the `Gui.CityName` and `Server.URL` properties.  Also change
+the `Config.language` variable from 'eng' to 'spa' if you want the site in spanish.
+4. Make all of the cache directories writable for the web user (or anyone 
+if you don't care about security):
+    chmod -R 777 app/tmp/cache/
+    chmod -R 777 app/webroot/img/uploaded/
+5. Create the empty database by running all the migrations:
+    ./cake/console/cake migrate 
+
+You now should be able to hit your url and see an empty generic 
+Heroreports website!
+
+### Configure Your Installation ###
+
+The code you just installed is set up centered on the MIT area in Cambridge, MA, USA.  If you are 
+starting a new site from scratch, you can change that in a Javascript configuration file.
+
+1. Go into the theming directory:
+    cd app/views/themed/
+2. Make a new theme directory for your site, and copy the default
+javascritp config file:
+    mkdir mycity
+    mkdir mycity/webroot
+    mkdir mycity/webroot/js
+    cp generic/webroot/js/heroreports-config.js mycity/webroot/js/
+3. Open the `mycity/webroot/js/heroreports-config.js` and change the 
+call to `HR.Map.SetDefaultLonLat` to the longitude and latitude of your
+city.
+4. Tell the app to use your theme by opening the `app/config/heroreports.php`
+file and changing the `Gui.ThemeName` property to `mycity`.
+5. Create an admin account for yourself by visiting `http://mycity.mysite.org/signup`.
+Then log back into the database admin console (ie. PhpMyAdmin) and change the 
+`hr_users.admin` flag for your entry. Now this account will be able to add users, etc.
+6. Once you have created your account, you probably want to open up the 
+`app/config/heroreports.php` file and change the `User.AllowSelfSignup` variable
+to false.
+7. Once you have it all set, open the `app/config/core.php` file and change 
+the `debug` value to 0 to run the site in production mode.  Also open the
+`app/config/heroreports.php` file and set the `Gui.IsDevInstall` variable to false.

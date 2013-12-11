@@ -1,0 +1,10 @@
+---
+DOWN: 
+  drop_fied: 
+    - users
+      - language
+UP: 
+  add_field: 
+    users: 
+      language: 
+        type: string

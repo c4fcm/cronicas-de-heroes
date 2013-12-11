@@ -1,0 +1,59 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-07-11 16:09+0000\n"
+"PO-Revision-Date: 2011-07-11 12:12-0500\n"
+"Last-Translator: Rahul Bhargava <rahulb@media.mit.edu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "tag.category.source"
+msgstr "Fuente"
+
+msgid "tag.happenedtome"
+msgstr "A Mí Me Pasó"
+
+msgid "tag.eyewitness"
+msgstr "Testigo Presencial"
+
+msgid "tag.inthenews"
+msgstr "En las Noticias"
+
+msgid "tag.heardabout"
+msgstr "Alguien Me Dijo"
+
+msgid "tag.category.category"
+msgstr "Categoría"
+
+msgid "tag.lostandfound"
+msgstr "Perdidos y Encontrados"
+
+msgid "tag.lifeanddeath"
+msgstr "Vida y Muerte"
+
+msgid "tag.assistance"
+msgstr "Asitencia"
+
+msgid "tag.category.place"
+msgstr "Lugar"
+
+msgid "tag.subway"
+msgstr "Transpote Público"
+
+msgid "tag.street"
+msgstr "Calle"
+
+msgid "tag.taxi"
+msgstr "En mi Colonia"
+
+msgid "tag.other"
+msgstr "Otro"
+

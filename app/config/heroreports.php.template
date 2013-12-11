@@ -1,0 +1,129 @@
+<?php 
+
+/**
+ * What language file to use.  The localized strings are stored in
+ * the /app/locale/ directories.  You should use a .po file editor, 
+ * like Poedit to work on these.
+ */
+Configure::Write('Config.language', 'eng');
+
+/**
+ * What is the base url of the server you are setting this up on?
+ */
+Configure::Write('Server.URL', 'http://dev.heroreports.org/');
+
+/**
+ * What is the name of the city this install is for.
+ */
+Configure::Write('Gui.CityName', 'Boston');
+
+/**
+ * What theme should we use.  This indicates a folder under
+ * app/views/themed/ to look for files that will override those
+ * in app/views/.
+ */
+Configure::Write('Gui.ThemeName', 'generic');
+
+/**
+ * Are moderation users allowed to sign themselves up?
+ * If so, they can hit the /users/signup url to do it.
+ */
+Configure::Write('User.AllowSelfSignup', false);
+
+/**
+ * Are new reports queued for moderation by default, or 
+ * published automatically?
+ */
+Configure::Write('Report.PublishedAutomically', false);
+
+/**
+ * How many reports should we show on one page?
+ */
+Configure::Write('Report.MaxPerPage', 40);
+
+/**
+ * What is the maximum image upload size.
+ */
+Configure::Write('Report.MaxImageSizeBytes',5000000);   // 5MB
+
+/**
+ * How many recent reports to show on the homepage
+ */
+Configure::Write('Homepage.RecentReportCount',10);
+
+/** 
+ * Connect to twitter?  This will post status updates when a new report is approved 
+ * (this defaults to the heroreportstest account)
+ */
+Configure::Write('Twitter.Enabled', false);
+Configure::Write('Twitter.ConsumerKey','jjmBya09DmCWXHIcJ9U4MA');
+Configure::Write('Twitter.ConsumerSecret','wacVOO6KfJWKfgH5f7eDKmJTA8zHTMnKvuU9OYMg4');
+Configure::Write('Twitter.OAuthToken','15835701-rb6rU0QCk0rVip6INu3BQWckG0NkawhqeqMBqD63D');
+Configure::Write('Twitter.OAuthTokenSecret','GiOscQbabw53F6ylRMgXr4qc9WZKlt4FS7Q22sMQ82o');
+
+/**
+ * Where should we save the images uploaded on reports 
+ * (MUST START WITH WWW_ROOT.'img')
+ */
+Configure::Write('Report.ImageDir', WWW_ROOT.'img'.DS.'uploaded'.DS.'full');
+Configure::Write('Report.ImageSmallDir', WWW_ROOT.'img'.DS.'uploaded'.DS.'small');
+Configure::Write('Report.ImageMediumDir', WWW_ROOT.'img'.DS.'uploaded'.DS.'medium');
+
+/**
+ * What width would you like the auto-generated small images to be.
+ * These are meant to be shown on lists of reports 
+ */
+Configure::Write('Report.ImageSmallWidth', 100);
+
+/**
+ * What width would you like the auto-generated medium images to be.
+ * These are meant to be shown on the report view page. 
+ */
+Configure::Write('Report.ImageMediumWidth', 455);
+
+
+/**
+ * Set this to true if this is a development installation where the data is not preserved 
+ */
+Configure::Write('Gui.IsDevInstall', true);
+
+/**
+ * Require submissions to pass a CAPTCHA?
+ */
+Configure::Write('Gui.RequireCaptcha', true);
+
+/**
+ * Is voicemail support set up?  This works via Tropo, which gives us a phone number and
+ * then FTPs messages as .mp3 or .wav files to our server.  Then there is a cron job that copies them
+ * from VoiceMail.SourceFolder and creates new empty reports in the db, linked to the voice files.
+ */
+Configure::Write('Voicemail.Enabled', false);
+Configure::Write('Voicemail.SourceFolder', '/tmp/voicemail');   // change this to the dir that Tropo ftps voicemail files to
+Configure::Write('Voicemail.PublicFolder', WWW_ROOT.DS.'files'.DS.'voicemail');  // you probably don't want to change this
+
+/**
+ * What tags and categories do you want to use?
+ */
+Configure::Write("Tags",array(
+            'tag.category.source'=>array(
+                'tag.happenedtome',
+                'tag.eyewitness',
+                'tag.inthenews',
+                'tag.heardabout'
+            ),
+            'tag.category.category'=>array(
+                'tag.lostandfound',
+                'tag.lifeanddeath',
+                'tag.assistance',
+                'tag.other'
+            ),
+            'tag.category.place'=>array(
+                'tag.subway',
+                'tag.street',
+                'tag.taxi',
+                'tag.other'
+            )
+        )
+);
+
+?>

@@ -1,0 +1,465 @@
+
+body {
+    background-image: none;
+	background: #2b2b2b;	
+	font-family: "Arial", sans-seif;
+	color: #ffffff;
+}
+
+#hr-container {
+	width: 100%;
+}
+
+#hr-header{
+	margin: 0px;
+	padding: 0px;
+	background-image: none;
+	background: #1d1d1d;
+}
+
+.hr-width-wrapper {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#hr-nav {
+	max-width: 850px;
+    float: right;
+    padding-top: 48px;
+    background: none;
+    background-image: none;
+    border: none;
+    height: auto;
+}
+
+#hr-nav.hr-admin-nav {
+	padding-top: 24px;
+}
+
+#hr-nav ul {
+    padding: 0px;
+    float: none;
+    background: none;
+    border: none;
+    display: block;
+    height: 40px;   
+}
+
+#hr-nav ul li {
+    padding: 6px 15px 6px 15px;
+    display: inline-block;
+    float: left;
+    border-left: 1px solid #6d6d6d;
+}
+
+#hr-nav ul li:first-child {
+	border: none;
+}
+
+#hr-nav ul li a {
+    color: #ffffff;
+    border: none;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: none;
+	padding: 0px;
+}
+
+#hr-nav ul li a .hr-name {
+	display: inline-block;
+	float: left;
+	margin-top: 7px;
+	margin-left: 4px;
+}
+#hr-nav ul li a .hr-icon {
+	float: left;
+	width: 26px;
+	height: 26px;
+	font-size: 2px;
+	display: inline-block;
+}
+#hr-nav ul li a .hr-icon-home {
+    background: url('/theme/monterrey/img/nav-icons-small.gif') no-repeat 0px 0px;
+}
+#hr-nav ul li a .hr-icon-submit {
+    background: url('/theme/monterrey/img/nav-icons-small.gif') no-repeat -26px 0px;
+}
+#hr-nav ul li a .hr-icon-browse {
+    background: url('/theme/monterrey/img/nav-icons-small.gif') no-repeat -52px 0px;
+}
+#hr-nav ul li a .hr-icon-map {
+    background: url('/theme/monterrey/img/nav-icons-small.gif') no-repeat -78px 0px;
+}
+#hr-nav ul li a .hr-icon-downloads {
+    background: url('/theme/monterrey/img/nav-icons-small.gif') no-repeat -104px 0px;
+}
+#hr-nav ul li a .hr-icon-about {
+    background: url('/theme/monterrey/img/nav-icons-small.gif') no-repeat -130px 0px;
+}
+#hr-nav ul li a:hover {
+	color: #6ce5d2;
+}
+#hr-nav ul li.hr-admin-nav {
+    background-color: #1D1D1D;
+}
+#hr-nav ul li.hr-admin-nav a {
+    font-size: 12px;
+}
+
+h2 {
+    background: none;
+    color: #1d1d1d;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "Arial",sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    font-size:16px;
+	font-weight: bold;
+	font-family: "Arial",sans-serif;
+	color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+
+#hr-content {
+	padding: 0px;
+	margin: 0px;
+	padding-bottom: 40px;
+	border: none;
+	color: #000000;
+	background: #9a9b9d;
+	font-size: 14px;
+    font-family: "Arial",sans-serif;
+}
+
+#hr-sub-header{
+	background-color: #6cd5e2;
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+#hr-sub-header img {
+    padding-left: 88px;
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+#hr-sub-header h2 {
+	padding-top: 3px;
+    padding-bottom: 4px;
+}
+#hr-sub-header h3 {
+    padding-bottom: 30px;
+}
+
+#hr-search-form {
+	padding: 2px 10px;
+	margin: 0px;
+    margin-right: 14px;
+	background: #ffffff;
+}
+#hr-search-form > div {
+	float: left;
+	margin: 0px;
+}
+#hr-search-form input[type='text'] {
+    width: 170px;
+    border: 0px;
+    padding: 5px;
+	margin: 0px;
+	color: rgb(116,116,116);
+	font-size: 12px;
+	line-height: 24px;
+	margin-right: 5px;
+    display: inline-block;
+}
+#hr-search-form input[type="image"] {
+	display: inline-block;
+	margin: 0px;
+    background: #ffffff;
+	padding: 0px;
+}
+
+#hr-footer {
+    background: #252525;
+	color: #ffffff;
+    border: none;
+	float: none;
+	text-align: left;
+}
+#hr-footer .hr-column {
+	display: inline-block;
+    width: 230px;
+    margin-right: 10px;    
+	vertical-align: top;
+	margin-bottom: 10px;
+    margin-top: 10px;
+	margin-right: 100px;
+}
+#hr-footer .hr-column h2 {
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+#hr-footer .hr-column p {
+    color: rgb(127,127,127);
+	font-size: 12px;
+	line-height: 18px;
+}
+#hr-footer .hr-column a {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+#hr-sub-footer {
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+#hr-sub-footer h2 {
+    color: #cbcbcb;
+	font-size: 16px;
+}
+#hr-sub-footer a {
+	color: #6ce5d2;
+}
+
+a { color: #ffffff; }
+a:hover { color: #ffffff; }
+a:visited { color: #ffffff; }
+
+#hr-all-reports-map {
+	width: 1190px;
+}
+
+.hr-report-list .hr-report {
+	display: inline-block;
+	border: none;
+	vertical-align: top;
+	width: 230px;
+	margin-right: 100px;
+	margin-bottom: 50px; 
+}
+.hr-report-list .hr-report.hr-col-2 {
+	margin-right: 0px;
+}
+.hr-report-list .hr-report .hr-image-wrapper {
+	float: none;
+	display: block;
+	margin: 0px;
+	width: 217px;
+	height: 217px;
+	overflow: hidden;
+	border: 5px solid #ffffff;
+	margin-bottom: 30px;
+}
+.hr-report-list .hr-report h3 a {
+	color: #000000;
+	display: block;
+	font-size: 15px;
+	margin-bottom: 3px;
+}
+.hr-report-list .hr-report h3 a.hr-read-more {
+    font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;	
+}
+
+.hr-pagination {
+    color: #cccccc;
+	border: none;
+    font-size: 18px;
+}
+
+#hr-create-map,
+#hr-edit-map {
+	height: 600px;
+}
+
+.hr-edit-form,
+.hr-create-form {
+	margin-left: 150px;
+}
+.hr-create-form .hr-map-container {
+	background-image: none;
+	margin-top: 0px;
+}
+
+.hr-create-form .hr-map-container small {
+	font-size: 16px;
+	display: block;
+	margin-top: 5px;
+}
+
+label {
+    font-size: 18px;
+}
+
+div.required label {
+    font-weight: bold;    
+}
+
+.hr-report-view .hr-fields {
+	margin-top: 10px;
+}
+
+.hr-all-tags-list {
+	float: right;
+	width: 245px;
+}
+.hr-tag-category-list ul {
+    list-style: none;
+	margin-bottom: 20px;
+}
+.hr-tag-category-list h2 {
+    margin-bottom: 10px;
+}
+.hr-all-tags-list .hr-tag-category-list h2 {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.hr-all-tags-list .hr-tag-category-list li a {
+    font-size: 12px;
+	line-height: 16px;
+}
+
+#hr-featured-report-list-wrapper img {
+    padding-left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+#hr-featured-report-list .hr-report {
+	width:900px;
+}
+#hr-featured-report-list .hr-report h2 {
+    font-family: "Times", serif;
+    font-size: 52px;
+	font-weight: bold;
+	text-transform: none;
+}
+#hr-featured-report-list .hr-report p {
+    font-family: "Times", serif;
+    font-size: 44px;
+    font-weight: bold;
+	font-style: italic;
+}
+#hr-featured-report-list .hr-report a.hr-read-more {
+	display: block;
+	float: right;
+}
+#hr-featured-report-prev {
+	float: left;
+    margin-top: 100px;
+	display: block;
+	width: 150px;
+}
+#hr-featured-report-next {
+    margin-top: 100px;
+    float: right;
+    display: block;
+    width: 150px;
+}
+#hr-featured-report-next img {
+    padding-left: 80px;
+}
+#hr-featured-report-nav-wrapper {
+    padding-bottom: 20px;
+	padding-left: 285px;
+}
+#hr-featured-report-nav a {
+    background-image: url('/theme/monterrey/img/nav-dot.gif');
+	width:18px;
+	height:26px;
+	display: inline-block;
+	font-size: 0px;
+	text-decoration: none;
+	color: #000000;
+}
+#hr-featured-report-nav a.activeSlide {
+    background-image: url('/theme/monterrey/img/nav-dot.gif');
+	background-position: -18px -0px;	
+}
+
+.hr-large-button,
+.hr-form input[type=submit] {
+    background:#404040;
+	background-image: none;
+    font-weight: bold;
+	border: 0px;
+	padding: 10px;
+}
+
+.hr-report-view .hr-report p {
+    line-height: 20px;
+}
+
+/** ADMIN STYLES **/
+
+.hr-form-login {
+    width: 500px;
+	margin-top: 20px;
+	margin-left: 150px;	
+}
+
+ul#hr-nav-admin {
+    margin-left: 20px;
+    background: none;
+    border: none;
+    float: none;
+    height: 38px;
+    display: block;
+}
+
+ul#hr-nav-admin li {
+    margin-right: 13px;
+    float: left;
+    display: inline-block;
+    width: 150px;
+}
+
+ul#hr-nav-admin li a {
+    border: #333333 2px solid;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    background-image: url('/theme/juarez-luchador/img/square-white-80.png');
+    text-align: right;
+    padding: 4px; 
+    font-size: 16px;
+    color: #333333;
+    display: block;
+    font-family: "Bernard MT Condensed", "Impact", serif;
+}
+
+ul#hr-nav-admin li a:hover {
+    background-color: #ffffff;
+    color: #111111;
+}
+
+.hr-moderation-list-links {
+	font-size: 16px;
+}
+
+.hr-report-moderation-controls label {
+	font-family: sans-serif;
+}
+
+/** pending **/
+.hr-report-status-0 {
+	background: inherit;    
+    background-color: url('/theme/juarez-luchador/img/square-yellow-30.png');
+}
+
+/** accepted **/
+.hr-report-status-1 {
+    background: inherit;    
+    background-image: url('/theme/juarez-luchador/img/square-green-30.png');    
+}
+
+/** rejected **/
+.hr-report-status-2 {
+    background: inherit;    
+    background-image: url('/theme/juarez-luchador/img/square-red-30.png');    
+}

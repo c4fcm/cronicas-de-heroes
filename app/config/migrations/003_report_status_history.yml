@@ -1,0 +1,19 @@
+---
+DOWN: 
+  drop_table: 
+    - report_status_histories
+UP: 
+  create_table: 
+    report_status_histories: 
+      report_id:
+        type: int
+        - not_null
+        index: true
+      status:
+        type: int
+        - not_null
+      user_id: 
+        type: int
+      time:
+        type: datetime
+        - not_null

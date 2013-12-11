@@ -1,0 +1,13 @@
+#hr-header h1 {
+    margin-bottom: 10px;	
+}
+
+#hr-header img {
+    margin: 2px;
+	overflow: hidden;
+	height: 125px;
+}
+
+#hr-header {
+	margin-bottom: 10px;
+}

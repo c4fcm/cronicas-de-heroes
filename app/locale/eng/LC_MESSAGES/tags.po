@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2011-03-30 15:05-0400\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Rahul Bhargava <rahulb@media.mit.edu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "tag.category.source"
+msgstr "Source"
+
+msgid "tag.happenedtome"
+msgstr "Happened to Me"
+
+msgid "tag.eyewitness"
+msgstr "Eyewitness"
+
+msgid "tag.inthenews"
+msgstr "In the News"
+
+msgid "tag.heardabout"
+msgstr "Heard About"
+
+msgid "tag.category.category"
+msgstr "Category"
+
+msgid "tag.lostandfound"
+msgstr "Lost & Found"
+
+msgid "tag.lifeanddeath"
+msgstr "Life & Death"
+
+msgid "tag.assistance"
+msgstr "Assitance"
+
+msgid "tag.category.place"
+msgstr "Place"
+
+msgid "tag.subway"
+msgstr "Subway"
+
+msgid "tag.street"
+msgstr "Street"
+
+msgid "tag.taxi"
+msgstr "Taxi"
+
+msgid "tag.other"
+msgstr "Other"
+        

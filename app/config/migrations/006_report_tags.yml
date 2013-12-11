@@ -1,0 +1,30 @@
+---
+DOWN: 
+  drop_table: 
+    - tag_categories
+    - tags
+    - reports_tags
+UP: 
+  create_table: 
+    tag_categories: 
+      name: 
+        type: string
+        default: false
+        length: 200
+        - not_null
+    tags: 
+      tag_category_id:
+        type: int
+        - not_null      
+      name: 
+        type: string
+        default: false
+        length: 200
+        - not_null
+    reports_tags: 
+      report_id: 
+        type: int
+        - not_null
+      tag_id: 
+        type: int
+        - not_null

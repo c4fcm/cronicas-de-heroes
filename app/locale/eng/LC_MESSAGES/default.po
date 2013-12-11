@@ -1,0 +1,451 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2011-03-30 15:05-0400\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Rahul Bhargava <rahulb@media.mit.edu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#: /app_controller.php:66;69;72
+msgid "error.cantwritetodir"
+msgstr "ERROR: you need to make this directory writable"
+
+#: /controllers/reports_controller.php:120
+msgid "report.image.error"
+msgstr "ERROR: that image didn't upload correctly.  Please try another one, or try again."
+
+#: /controllers/reports_controller.php:123
+msgid "report.image.error.invalidtype"
+msgstr "Sorry, that isn't a valid image.  Please upload a .jpg, .gif or .png."
+
+#: /controllers/reports_controller.php:126
+msgid "report.image.error.toobig"
+msgstr "Sorry, that image is too big.  Please upload a smaller one."
+
+#: /controllers/reports_controller.php:162;294
+msgid "error.outsidemapboundary"
+msgstr "Sorry, that location isn't within the acceptable area for a Heroreport.  Please click another location."
+
+#: /controllers/reports_controller.php:174
+msgid "report.captchafailed"
+msgstr "Sorry, you didn't pass the \"are you human\" test.  Try again!"
+
+#: /controllers/reports_controller.php:207
+msgid "report.aftersubmission"
+msgstr "Thanks for your heroreport.  We'll review it and post it soon!"
+
+#: /controllers/reports_controller.php:332
+msgid "report.aftersave"
+msgstr "Your changes to the report have been saved."
+
+#: /controllers/reports_controller.php:345
+msgid "report.afterdelete"
+msgstr "The report has been deleted."
+
+#: /controllers/reports_controller.php:355
+msgid "report.afterRemovedPicture"
+msgstr "The picture has been removed from the report."
+
+#: /controllers/users_controller.php:78;82
+msgid "error.badlogin"
+msgstr "That username or password is wrong.  Try again."
+
+#: /controllers/users_controller.php:130
+msgid "user.aftercreate"
+msgstr "The new user has been created."
+
+#: /controllers/users_controller.php:166
+msgid "user.aftersave"
+msgstr "Your changes to the user have been saved."
+
+#: /controllers/users_controller.php:192
+msgid "user.preferences.aftersave"
+msgstr "Your changes have been saved."
+
+#: /controllers/users_controller.php:214
+msgid "user.afterdelete"
+msgstr "The user has been deleted."
+
+#: /controllers/components/twitter.php:40
+msgid "twitter.statusprefix"
+msgstr "New Hero Report posted"
+
+#: /controllers/components/twitter.php:41
+msgid "twitter_read"
+msgstr "read the full report"
+
+#: /vendors/shells/import_voicemail.php:56
+msgid "voicemail.needstranscription"
+msgstr "This report is a new voicemail that needs transcription."
+
+#: /vendors/shells/import_voicemail.php:59
+msgid "voicemail.new"
+msgstr "New Voicemail Report"
+
+#: /vendors/shells/import_voicemail.php:60
+#: /views/reports/moderator_recent_activity.ctp:29
+msgid "noun.anonymous"
+msgstr "anonymous"
+
+#: /views/elements/header.ctp:2
+#: /views/layouts/standard.ctp:10
+#: /views/themed/juarez/elements/header.ctp:2
+msgid "site.title"
+msgstr "Heroreports"
+
+#: /views/elements/moderation-list-links.ctp:3
+msgid "link.seeall"
+msgstr "All"
+
+#: /views/elements/moderation-list-links.ctp:6
+msgid "link.seeapproved"
+msgstr "Approved"
+
+#: /views/elements/moderation-list-links.ctp:11
+msgid "link.seepending"
+msgstr "Pending Approval"
+
+#: /views/elements/moderation-list-links.ctp:16
+msgid "link.seerejected"
+msgstr "Rejected"
+
+#: /views/elements/moderation-list-links.ctp:21
+msgid "link.seerecentactivity"
+msgstr "Recent Activity"
+
+#: /views/elements/report_audio_play.ctp:7
+msgid "action.report.listen"
+msgstr "Listen to this report:"
+
+#: /views/elements/report_audio_play.ctp:11
+msgid "voicemail.playertext"
+msgstr "report recording"
+
+#: /views/elements/report_list.ctp:30
+#: /views/reports/create.ctp:23
+#: /views/reports/moderator_edit.ctp:28
+msgid "report.label.author"
+msgstr "Your Contact Info (optional)"
+
+#: /views/elements/report_list.ctp:32
+#: /views/reports/moderator_edit.ctp:30
+msgid "report.label.submittedtime"
+msgstr "When"
+
+#: /views/elements/report_moderate_buttons.ctp:35
+msgid "action.manage"
+msgstr "Manage:"
+
+#: /views/elements/report_moderate_buttons.ctp:39
+#: /views/users/admin_index.ctp:32
+msgid "action.edit"
+msgstr "edit"
+
+#: /views/elements/report_moderate_buttons.ctp:46
+msgid "action.approve"
+msgstr "approve"
+
+#: /views/elements/report_moderate_buttons.ctp:51
+msgid "action.requeue"
+msgstr "requeue"
+
+#: /views/elements/report_moderate_buttons.ctp:56
+msgid "action.reject"
+msgstr "reject"
+
+#: /views/elements/report_moderate_buttons.ctp:63
+#: /views/users/admin_index.ctp:35
+msgid "action.delete"
+msgstr "delete"
+
+#: /views/elements/report_moderate_buttons.ctp:68
+#: /views/users/admin_index.ctp:38
+msgid "action.delete.confirm"
+msgstr "Are you sure you want to delete this report?"
+
+#: /views/helpers/heroreports.php:40
+msgid "report.label.status.unknown"
+msgstr "UKNOWN STATUS!"
+
+#: /views/helpers/heroreports.php:43
+msgid "report.label.status.approved"
+msgstr "approved"
+
+#: /views/helpers/heroreports.php:46
+msgid "report.label.status.pending"
+msgstr "pending"
+
+#: /views/helpers/heroreports.php:49
+msgid "report.label.status.rejected"
+msgstr "rejected"
+
+#: /views/home/index.ctp:2
+msgid "page.home"
+msgstr "home"
+
+#: /views/home/index.ctp:17
+msgid "home.largeinvitation"
+msgstr "Make a Report"
+
+#: /views/home/index.ctp:29
+msgid "section.recentreports"
+msgstr "Recent Reports"
+
+#: /views/layouts/standard.ctp:44
+msgid "warning.devinstall"
+msgstr "WARNING: This is a development installation of heroreports, not the live website!"
+
+#: /views/layouts/standard.ctp:57
+msgid "action.search"
+msgstr "search"
+
+#: /views/layouts/standard.ctp:67
+msgid "nav.home"
+msgstr "home"
+
+#: /views/layouts/standard.ctp:69
+msgid "nav.submit"
+msgstr "submit"
+
+#: /views/layouts/standard.ctp:71
+msgid "nav.browse"
+msgstr "browse"
+
+#: /views/layouts/standard.ctp:73
+msgid "nav.map"
+msgstr "map"
+
+#: /views/layouts/standard.ctp:75
+msgid "nav.about"
+msgstr "about"
+
+#: /views/layouts/standard.ctp:78
+msgid "nav.moderate"
+msgstr "moderate"
+
+#: /views/layouts/standard.ctp:82
+msgid "nav.users"
+msgstr "users"
+
+#: /views/layouts/standard.ctp:86
+msgid "nav.preferences"
+msgstr "Preferences"
+
+#: /views/layouts/standard.ctp:88
+msgid "nav.logout"
+msgstr "logout"
+
+#: /views/layouts/standard.ctp:94
+msgid "nav.inivationtosubmit"
+msgstr "This way to say something"
+
+#: /views/pages/about.ctp:2
+#: /views/themed/juarez/pages/about.ctp:2
+msgid "page.about"
+msgstr "about"
+
+#: /views/pages/not_permitted.ctp:2
+msgid "error.notpermitted"
+msgstr "Sorry, this page isn't valid."
+
+#: /views/reports/browse.ctp:2
+msgid "page.report.browse"
+msgstr "Browse"
+
+#: /views/reports/create.ctp:2
+msgid "page.report.create"
+msgstr "Create"
+
+#: /views/reports/create.ctp:21
+#: /views/reports/moderator_edit.ctp:22
+#: /views/reports/moderator_recent_activity.ctp:15
+msgid "report.label.name"
+msgstr "Title"
+
+#: /views/reports/create.ctp:22
+#: /views/reports/moderator_edit.ctp:23
+msgid "report.label.body"
+msgstr " "
+
+#: /views/reports/create.ctp:24
+#: /views/reports/moderator_edit.ctp:29
+#: /views/reports/view.ctp:35
+msgid "report.label.location"
+msgstr "Location"
+
+#: /views/reports/create.ctp:27
+#: /views/reports/moderator_edit.ctp:34
+msgid "report.label.image"
+msgstr "Image"
+
+#: /views/reports/create.ctp:58
+msgid "report.label.captcha"
+msgstr "Are you a human?"
+
+#: /views/reports/create.ctp:67
+msgid "report.label.where"
+msgstr "Where did this Heroreport happen?"
+
+#: /views/reports/create.ctp:68
+msgid "report.label.whereDescription"
+msgstr "Click the map in the location where this report occurred"
+
+#: /views/reports/create.ctp:76
+#: /views/reports/moderator_edit.ctp:87
+#: /views/users/admin_create.ctp:14
+#: /views/users/admin_edit.ctp:15
+#: /views/users/moderator_preferences.ctp:14
+#: /views/users/signup.ctp:16
+msgid "action.submit"
+msgstr "submit"
+
+#: /views/reports/map.ctp:2
+msgid "page.map"
+msgstr "Map of All Reports"
+
+#: /views/reports/moderator_all.ctp:2
+msgid "page.report.all"
+msgstr "All Reports"
+
+#: /views/reports/moderator_approved.ctp:2
+msgid "page.report.approved"
+msgstr "Approved Reports"
+
+#: /views/reports/moderator_edit.ctp:2
+msgid "page.report.edit"
+msgstr "Edit Report"
+
+#: /views/reports/moderator_edit.ctp:24
+msgid "report.label.audio"
+msgstr "Audio"
+
+#: /views/reports/moderator_edit.ctp:38
+msgid "action.removepicture"
+msgstr "delete this picture"
+
+#: /views/reports/moderator_edit.ctp:79
+msgid "report.label.map"
+msgstr "Location:"
+
+#: /views/reports/moderator_pending.ctp:2
+msgid "page.report.pendingapproval"
+msgstr "Reports Pending Approval"
+
+#: /views/reports/moderator_recent_activity.ctp:2
+msgid "page.report.recentactivity"
+msgstr "Recent Activity"
+
+#: /views/reports/moderator_recent_activity.ctp:12
+#: /views/reports/view.ctp:54
+msgid "reportstatushistory.list"
+msgstr "Moderation History"
+
+#: /views/reports/moderator_recent_activity.ctp:16
+#: /views/reports/view.ctp:57
+msgid "reportstatushistory.when"
+msgstr "When"
+
+#: /views/reports/moderator_recent_activity.ctp:17
+#: /views/reports/view.ctp:58
+msgid "reportstatushistory.status"
+msgstr "New Status"
+
+#: /views/reports/moderator_recent_activity.ctp:18
+#: /views/reports/view.ctp:59
+msgid "reportstatushistory.user"
+msgstr "Who"
+
+#: /views/reports/moderator_rejected.ctp:2
+msgid "page.alreadyrejected"
+msgstr "Rejected Reports"
+
+#: /views/reports/search.ctp:2
+msgid "page.report.searchresults"
+msgstr "Search Results"
+
+#: /views/reports/view.ctp:33
+msgid "report.label.when"
+msgstr "When:"
+
+#: /views/users/admin_create.ctp:2
+msgid "page.createuser"
+msgstr "Create User"
+
+#: /views/users/admin_create.ctp:10
+#: /views/users/admin_edit.ctp:11
+#: /views/users/admin_index.ctp:17
+#: /views/users/login.ctp:13
+#: /views/users/signup.ctp:14
+msgid "user.label.username"
+msgstr "username"
+
+#: /views/users/admin_create.ctp:11
+#: /views/users/admin_edit.ctp:12
+#: /views/users/admin_index.ctp:18
+#: /views/users/signup.ctp:13
+msgid "user.label.email"
+msgstr "Email"
+
+#: /views/users/admin_create.ctp:12
+#: /views/users/admin_edit.ctp:13
+#: /views/users/login.ctp:14
+#: /views/users/moderator_preferences.ctp:11
+#: /views/users/signup.ctp:15
+msgid "user.label.password"
+msgstr "Password"
+
+#: /views/users/admin_create.ctp:13
+#: /views/users/admin_edit.ctp:14
+#: /views/users/admin_index.ctp:19
+msgid "user.label.admin"
+msgstr "Should this person have administration privileges?"
+
+#: /views/users/admin_edit.ctp:2
+msgid "page.edituser"
+msgstr "Edit User"
+
+#: /views/users/admin_index.ctp:2
+msgid "page.allusers"
+msgstr "All Users"
+
+#: /views/users/admin_index.ctp:9
+msgid "link.createuser"
+msgstr "Create User"
+
+#: /views/users/admin_index.ctp:20
+msgid "user.label.moderator"
+msgstr "Should this person have moderation privileges?"
+
+#: /views/users/admin_index.ctp:28;29
+msgid "noun.yes"
+msgstr "yes"
+
+#: /views/users/login.ctp:2
+msgid "page.login"
+msgstr "Login"
+
+#: /views/users/login.ctp:15
+msgid "action.login"
+msgstr "Login"
+
+#: /views/users/moderator_preferences.ctp:2
+msgid "page.preferences"
+msgstr "Preferences"
+
+#: /views/users/moderator_preferences.ctp:12
+msgid "user.label.language"
+msgstr "Language"
+
+#: /views/users/signup.ctp:2
+msgid "page.signup"
+msgstr "Signup"
+
+#: /webroot/test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr ""

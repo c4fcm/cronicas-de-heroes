@@ -1,0 +1,40 @@
+---
+DOWN: 
+  drop_table: 
+    - reports
+UP: 
+  create_table: 
+    reports: 
+      name: 
+        type: string
+        default: false
+        length: 200
+        - not_null
+      body: 
+        type: string
+        default: false
+        - not_null
+        length: 6000
+      author:
+        type: string
+        default: false
+      submitted_time:
+        type: datetime
+        default: false
+        - not_null
+      picture: 
+        type: string
+        default: false
+        length: 200
+      latitude:
+        type: float
+        default: false
+      longitude:
+        type: float
+        default: false
+      status:
+        type: int
+        default: false
+        index: true
+      old_id:
+        type: int

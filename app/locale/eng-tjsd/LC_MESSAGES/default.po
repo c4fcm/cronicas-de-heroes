@@ -1,0 +1,654 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2011-08-22 20:06+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Rahul Bhargava <rahulb@media.mit.edu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#: /app_controller.php:71;74;77
+msgid "error.cantwritetodir"
+msgstr "ERROR: you need to make this directory writable"
+
+#: /controllers/reports_controller.php:122
+msgid "report.image.error"
+msgstr "ERROR: that image didn't upload correctly.  Please try another one, or try again."
+
+#: /controllers/reports_controller.php:125
+msgid "report.image.error.invalidtype"
+msgstr "Sorry, that isn't a valid image.  Please upload a .jpg, .gif or .png."
+
+#: /controllers/reports_controller.php:128
+msgid "report.image.error.toobig"
+msgstr "Sorry, that image is too big.  Please upload a smaller one."
+
+#: /controllers/reports_controller.php:164;296
+msgid "error.outsidemapboundary"
+msgstr "Sorry, that location isn't within the acceptable area for a Heroreport.  Please click another location."
+
+#: /controllers/reports_controller.php:176
+msgid "report.captchafailed"
+msgstr "Sorry, you didn't pass the \"are you human\" test.  Try again!"
+
+#: /controllers/reports_controller.php:209
+msgid "report.aftersubmission"
+msgstr "Thanks for your heroreport.  We'll review it and post it soon!"
+
+#: /controllers/reports_controller.php:334
+msgid "report.aftersave"
+msgstr "Your changes to the report have been saved."
+
+#: /controllers/reports_controller.php:347
+msgid "report.afterdelete"
+msgstr "The report has been deleted."
+
+#: /controllers/reports_controller.php:357
+msgid "report.afterRemovedPicture"
+msgstr "The picture has been removed from the report."
+
+#: /controllers/users_controller.php:92;96
+msgid "error.badlogin"
+msgstr "That username or password is wrong.  Try again."
+
+#: /controllers/users_controller.php:144
+msgid "user.aftercreate"
+msgstr "The new user has been created."
+
+#: /controllers/users_controller.php:180
+msgid "user.aftersave"
+msgstr "Your changes to the user have been saved."
+
+#: /controllers/users_controller.php:206
+msgid "user.preferences.aftersave"
+msgstr "Your changes have been saved."
+
+#: /controllers/users_controller.php:228
+msgid "user.afterdelete"
+msgstr "The user has been deleted."
+
+#: /controllers/components/twitter.php:40
+msgid "twitter.statusprefix"
+msgstr "New Hero Report posted"
+
+#: /controllers/components/twitter.php:41
+msgid "twitter_read"
+msgstr "read the full report"
+
+#: /vendors/shells/import_voicemail.php:59
+msgid "voicemail.needstranscription"
+msgstr "This report is a new voicemail that needs transcription."
+
+#: /vendors/shells/import_voicemail.php:62
+msgid "voicemail.new"
+msgstr "New Voicemail Report"
+
+#: /vendors/shells/import_voicemail.php:63
+#: /views/reports/moderator_recent_activity.ctp:29
+#: /views/themed/monterrey/reports/moderator_recent_activity.ctp:36
+msgid "noun.anonymous"
+msgstr "anonymous"
+
+#: /views/blogs/all_post_titles.ctp:1
+msgid "Blog"
+msgstr "Blog"
+
+#: /views/blogs/all_post_titles.ctp:10
+#: /views/themed/monterrey/elements/report_list.ctp:44
+#: /views/themed/monterrey/home/index.ctp:30
+msgid "report.readmore"
+msgstr "read more"
+
+#: /views/elements/footer.ctp:7
+#: /views/elements/navigation.ctp:24
+#: /views/themed/juarez-luchador/elements/footer.ctp:8
+#: /views/themed/juarez-luchador/elements/navigation.ctp:28
+#: /views/themed/monterrey/elements/footer.ctp:12
+#: /views/themed/monterrey/elements/navigation.ctp:48
+#: /views/themed/tjsd/elements/navigation.ctp:28
+msgid "nav.logout"
+msgstr "logout"
+
+#: /views/elements/footer.ctp:10
+#: /views/themed/juarez-luchador/elements/footer.ctp:11
+#: /views/themed/monterrey/users/login.ctp:2
+#: /views/users/login.ctp:2
+msgid "page.login"
+msgstr "Login"
+
+#: /views/elements/header.ctp:2
+#: /views/layouts/standard.ctp:10
+#: /views/themed/juarez/elements/header.ctp:2
+#: /views/themed/juarez-luchador/elements/header.ctp:6
+#: /views/themed/juarez-luchador/layouts/standard.ctp:10
+#: /views/themed/monterrey/elements/header.ctp:2
+#: /views/themed/monterrey/layouts/standard.ctp:10
+#: /views/themed/tjsd/elements/header.ctp:13
+#: /views/themed/tjsd/layouts/standard.ctp:10
+msgid "site.title"
+msgstr "Heroreports"
+
+#: /views/elements/moderation-list-links.ctp:3
+msgid "link.seeall"
+msgstr "All"
+
+#: /views/elements/moderation-list-links.ctp:6
+msgid "link.seeapproved"
+msgstr "Approved"
+
+#: /views/elements/moderation-list-links.ctp:11
+msgid "link.seepending"
+msgstr "Pending Approval"
+
+#: /views/elements/moderation-list-links.ctp:16
+msgid "link.seerejected"
+msgstr "Rejected"
+
+#: /views/elements/moderation-list-links.ctp:21
+msgid "link.seerecentactivity"
+msgstr "Recent Activity"
+
+#: /views/elements/navigation.ctp:3
+#: /views/themed/juarez-luchador/elements/navigation.ctp:3
+#: /views/themed/monterrey/elements/navigation.ctp:6
+#: /views/themed/tjsd/elements/navigation.ctp:3
+msgid "nav.home"
+msgstr "home"
+
+#: /views/elements/navigation.ctp:5
+#: /views/themed/juarez-luchador/elements/navigation.ctp:7
+#: /views/themed/monterrey/elements/navigation.ctp:11
+#: /views/themed/tjsd/elements/navigation.ctp:7
+msgid "nav.submit"
+msgstr "submit"
+
+#: /views/elements/navigation.ctp:7
+#: /views/themed/juarez-luchador/elements/navigation.ctp:9
+#: /views/themed/monterrey/elements/navigation.ctp:16
+#: /views/themed/tjsd/elements/navigation.ctp:9
+msgid "nav.browse"
+msgstr "browse"
+
+#: /views/elements/navigation.ctp:9
+#: /views/themed/juarez-luchador/elements/navigation.ctp:11
+#: /views/themed/monterrey/elements/navigation.ctp:21
+#: /views/themed/tjsd/elements/navigation.ctp:11
+msgid "nav.map"
+msgstr "map"
+
+#: /views/elements/navigation.ctp:11
+#: /views/themed/juarez-luchador/elements/navigation.ctp:5
+#: /views/themed/monterrey/elements/navigation.ctp:31
+#: /views/themed/tjsd/elements/navigation.ctp:5
+msgid "nav.about"
+msgstr "about"
+
+#: /views/elements/navigation.ctp:14
+#: /views/themed/juarez-luchador/elements/navigation.ctp:19
+#: /views/themed/monterrey/elements/navigation.ctp:36
+#: /views/themed/tjsd/elements/navigation.ctp:19
+msgid "nav.moderate"
+msgstr "moderate"
+
+#: /views/elements/navigation.ctp:18
+#: /views/themed/juarez-luchador/elements/navigation.ctp:23
+#: /views/themed/monterrey/elements/navigation.ctp:41
+#: /views/themed/tjsd/elements/navigation.ctp:23
+msgid "nav.users"
+msgstr "users"
+
+#: /views/elements/navigation.ctp:22
+#: /views/themed/juarez-luchador/elements/navigation.ctp:26
+#: /views/themed/monterrey/elements/navigation.ctp:46
+#: /views/themed/tjsd/elements/navigation.ctp:26
+msgid "nav.preferences"
+msgstr "Preferences"
+
+#: /views/elements/navigation.ctp:30
+msgid "nav.inivationtosubmit"
+msgstr "This way to say something"
+
+#: /views/elements/report_audio_play.ctp:7
+msgid "action.report.listen"
+msgstr "Listen to this report:"
+
+#: /views/elements/report_audio_play.ctp:11
+msgid "voicemail.playertext"
+msgstr "report recording"
+
+#: /views/elements/report_list.ctp:30
+#: /views/reports/create.ctp:23
+#: /views/reports/moderator_edit.ctp:28
+#: /views/themed/monterrey/elements/report_list.ctp:35
+#: /views/themed/monterrey/reports/create.ctp:30
+#: /views/themed/monterrey/reports/moderator_edit.ctp:35
+msgid "report.label.author"
+msgstr "Your Contact Info (optional)"
+
+#: /views/elements/report_list.ctp:32
+#: /views/reports/moderator_edit.ctp:30
+#: /views/themed/monterrey/elements/report_list.ctp:37
+#: /views/themed/monterrey/reports/moderator_edit.ctp:37
+msgid "report.label.submittedtime"
+msgstr "When"
+
+#: /views/elements/report_moderate_buttons.ctp:35
+msgid "action.manage"
+msgstr "Manage:"
+
+#: /views/elements/report_moderate_buttons.ctp:39
+#: /views/users/admin_index.ctp:32
+msgid "action.edit"
+msgstr "edit"
+
+#: /views/elements/report_moderate_buttons.ctp:46
+msgid "action.approve"
+msgstr "approve"
+
+#: /views/elements/report_moderate_buttons.ctp:51
+msgid "action.requeue"
+msgstr "requeue"
+
+#: /views/elements/report_moderate_buttons.ctp:56
+msgid "action.reject"
+msgstr "reject"
+
+#: /views/elements/report_moderate_buttons.ctp:63
+#: /views/users/admin_index.ctp:35
+msgid "action.delete"
+msgstr "delete"
+
+#: /views/elements/report_moderate_buttons.ctp:68
+#: /views/users/admin_index.ctp:38
+msgid "action.delete.confirm"
+msgstr "Are you sure you want to delete this report?"
+
+#: /views/elements/search.ctp:7
+#: /views/themed/monterrey/elements/search.ctp:8
+msgid "action.search"
+msgstr "search"
+
+#: /views/helpers/heroreports.php:40
+msgid "report.label.status.unknown"
+msgstr "UKNOWN STATUS!"
+
+#: /views/helpers/heroreports.php:43
+msgid "report.label.status.approved"
+msgstr "approved"
+
+#: /views/helpers/heroreports.php:46
+msgid "report.label.status.pending"
+msgstr "pending"
+
+#: /views/helpers/heroreports.php:49
+msgid "report.label.status.rejected"
+msgstr "rejected"
+
+#: /views/home/index.ctp:2
+#: /views/themed/juarez-luchador/home/index.ctp:2
+#: /views/themed/monterrey/home/index.ctp:5
+msgid "page.home"
+msgstr "home"
+
+#: /views/home/index.ctp:17
+#: /views/themed/juarez-luchador/home/index.ctp:17
+msgid "home.largeinvitation"
+msgstr "Make a Report"
+
+#: /views/home/index.ctp:29
+#: /views/themed/juarez-luchador/home/index.ctp:22
+#: /views/themed/monterrey/home/index.ctp:75
+msgid "section.recentreports"
+msgstr "Recent Reports"
+
+#: /views/layouts/standard.ctp:45
+#: /views/themed/juarez-luchador/layouts/standard.ctp:45
+#: /views/themed/monterrey/layouts/standard.ctp:47
+#: /views/themed/tjsd/layouts/standard.ctp:45
+msgid "warning.devinstall"
+msgstr "WARNING: This is a development installation of heroreports, not the live website!"
+
+#: /views/pages/about.ctp:2
+#: /views/themed/juarez/pages/about.ctp:2
+#: /views/themed/juarez-luchador/pages/about.ctp:2
+#: /views/themed/monterrey/pages/about.ctp:2
+#: /views/themed/tjsd/pages/about.ctp:2
+msgid "page.about"
+msgstr "about"
+
+#: /views/pages/not_permitted.ctp:2
+msgid "error.notpermitted"
+msgstr "Sorry, this page isn't valid."
+
+#: /views/reports/browse.ctp:2
+#: /views/themed/monterrey/reports/browse.ctp:2
+msgid "page.report.browse"
+msgstr "Browse"
+
+#: /views/reports/create.ctp:2
+#: /views/themed/monterrey/reports/create.ctp:2
+msgid "page.report.create"
+msgstr "Create"
+
+#: /views/reports/create.ctp:21
+#: /views/reports/moderator_edit.ctp:22
+#: /views/reports/moderator_recent_activity.ctp:15
+#: /views/themed/monterrey/reports/create.ctp:28
+#: /views/themed/monterrey/reports/moderator_edit.ctp:29
+#: /views/themed/monterrey/reports/moderator_recent_activity.ctp:22
+msgid "report.label.name"
+msgstr "Title"
+
+#: /views/reports/create.ctp:22
+#: /views/reports/moderator_edit.ctp:23
+#: /views/themed/monterrey/reports/create.ctp:29
+#: /views/themed/monterrey/reports/moderator_edit.ctp:30
+msgid "report.label.body"
+msgstr " "
+
+#: /views/reports/create.ctp:24
+#: /views/reports/moderator_edit.ctp:29
+#: /views/reports/view.ctp:35
+#: /views/themed/monterrey/reports/create.ctp:31
+#: /views/themed/monterrey/reports/moderator_edit.ctp:36
+#: /views/themed/monterrey/reports/view.ctp:44
+msgid "report.label.location"
+msgstr "Location"
+
+#: /views/reports/create.ctp:27
+#: /views/reports/moderator_edit.ctp:34
+#: /views/themed/monterrey/reports/create.ctp:34
+#: /views/themed/monterrey/reports/moderator_edit.ctp:41
+msgid "report.label.image"
+msgstr "Image"
+
+#: /views/reports/create.ctp:58
+#: /views/themed/monterrey/reports/create.ctp:65
+msgid "report.label.captcha"
+msgstr "Are you a human?"
+
+#: /views/reports/create.ctp:67
+#: /views/themed/monterrey/reports/create.ctp:74
+msgid "report.label.where"
+msgstr "Where did this Heroreport happen?"
+
+#: /views/reports/create.ctp:69
+#: /views/themed/monterrey/reports/create.ctp:76
+msgid "report.label.whereDescription"
+msgstr "Click the map in the location where this report occurred"
+
+#: /views/reports/create.ctp:76
+#: /views/reports/moderator_edit.ctp:87
+#: /views/themed/monterrey/reports/create.ctp:83
+#: /views/themed/monterrey/reports/moderator_edit.ctp:94
+#: /views/themed/monterrey/users/moderator_preferences.ctp:21
+#: /views/users/admin_create.ctp:14
+#: /views/users/admin_edit.ctp:15
+#: /views/users/moderator_preferences.ctp:14
+#: /views/users/signup.ctp:16
+msgid "action.submit"
+msgstr "submit"
+
+#: /views/reports/map.ctp:2
+#: /views/themed/monterrey/reports/map.ctp:2
+msgid "page.map"
+msgstr "Map of All Reports"
+
+#: /views/reports/moderator_all.ctp:2
+#: /views/themed/monterrey/reports/moderator_all.ctp:2
+msgid "page.report.all"
+msgstr "All Reports"
+
+#: /views/reports/moderator_approved.ctp:2
+#: /views/themed/monterrey/reports/moderator_approved.ctp:2
+msgid "page.report.approved"
+msgstr "Approved Reports"
+
+#: /views/reports/moderator_edit.ctp:2
+#: /views/themed/monterrey/reports/moderator_edit.ctp:2
+msgid "page.report.edit"
+msgstr "Edit Report"
+
+#: /views/reports/moderator_edit.ctp:24
+#: /views/themed/monterrey/reports/moderator_edit.ctp:31
+msgid "report.label.audio"
+msgstr "Audio"
+
+#: /views/reports/moderator_edit.ctp:38
+#: /views/themed/monterrey/reports/moderator_edit.ctp:45
+msgid "action.removepicture"
+msgstr "delete this picture"
+
+#: /views/reports/moderator_edit.ctp:79
+#: /views/themed/monterrey/reports/moderator_edit.ctp:86
+msgid "report.label.map"
+msgstr "Location:"
+
+#: /views/reports/moderator_pending.ctp:2
+#: /views/themed/monterrey/reports/moderator_pending.ctp:2
+msgid "page.report.pendingapproval"
+msgstr "Reports Pending Approval"
+
+#: /views/reports/moderator_recent_activity.ctp:2
+#: /views/themed/monterrey/reports/moderator_recent_activity.ctp:2
+msgid "page.report.recentactivity"
+msgstr "Recent Activity"
+
+#: /views/reports/moderator_recent_activity.ctp:12
+#: /views/reports/view.ctp:54
+#: /views/themed/monterrey/reports/moderator_recent_activity.ctp:19
+#: /views/themed/monterrey/reports/view.ctp:63
+msgid "reportstatushistory.list"
+msgstr "Moderation History"
+
+#: /views/reports/moderator_recent_activity.ctp:16
+#: /views/reports/view.ctp:57
+#: /views/themed/monterrey/reports/moderator_recent_activity.ctp:23
+#: /views/themed/monterrey/reports/view.ctp:66
+msgid "reportstatushistory.when"
+msgstr "When"
+
+#: /views/reports/moderator_recent_activity.ctp:17
+#: /views/reports/view.ctp:58
+#: /views/themed/monterrey/reports/moderator_recent_activity.ctp:24
+#: /views/themed/monterrey/reports/view.ctp:67
+msgid "reportstatushistory.status"
+msgstr "New Status"
+
+#: /views/reports/moderator_recent_activity.ctp:18
+#: /views/reports/view.ctp:59
+#: /views/themed/monterrey/reports/moderator_recent_activity.ctp:25
+#: /views/themed/monterrey/reports/view.ctp:68
+msgid "reportstatushistory.user"
+msgstr "Who"
+
+#: /views/reports/moderator_rejected.ctp:2
+#: /views/themed/monterrey/reports/moderator_rejected.ctp:2
+msgid "page.alreadyrejected"
+msgstr "Rejected Reports"
+
+#: /views/reports/search.ctp:2
+#: /views/themed/monterrey/reports/search.ctp:2
+msgid "page.report.searchresults"
+msgstr "Search Results"
+
+#: /views/reports/view.ctp:33
+#: /views/themed/monterrey/reports/view.ctp:42
+msgid "report.label.when"
+msgstr "When:"
+
+#: /views/themed/juarez-luchador/elements/header.ctp:2
+msgid "nav.donate"
+msgstr "donate"
+
+#: /views/themed/juarez-luchador/pages/donate.ctp:2
+msgid "page.donate"
+msgstr "donate"
+
+#: /views/themed/monterrey/elements/footer.ctp:15
+msgid "nav.login"
+msgstr "login"
+
+#: /views/themed/monterrey/elements/navigation.ctp:26
+msgid "nav.downloads"
+msgstr "downloads"
+
+#: /views/themed/monterrey/home/index.ctp:6
+#: /views/themed/monterrey/reports/moderator_all.ctp:3
+#: /views/themed/monterrey/reports/moderator_approved.ctp:3
+#: /views/themed/monterrey/reports/moderator_pending.ctp:3
+#: /views/themed/monterrey/reports/moderator_recent_activity.ctp:3
+#: /views/themed/monterrey/reports/moderator_rejected.ctp:3
+msgid "page.home.description"
+msgstr "Home"
+
+#: /views/themed/monterrey/pages/about.ctp:3
+#, fuzzy
+msgid "page.about.description"
+msgstr "about"
+
+#: /views/themed/monterrey/pages/downloads.ctp:2
+msgid "page.downloads"
+msgstr "Downloads"
+
+#: /views/themed/monterrey/pages/downloads.ctp:3
+msgid "page.about.downloads"
+msgstr "Downloads"
+
+#: /views/themed/monterrey/reports/browse.ctp:3
+#, fuzzy
+msgid "page.report.browse.description"
+msgstr "Browse"
+
+#: /views/themed/monterrey/reports/create.ctp:3
+#, fuzzy
+msgid "page.report.create.description"
+msgstr "Create"
+
+#: /views/themed/monterrey/reports/map.ctp:3
+msgid "page.map.description"
+msgstr "Map"
+
+#: /views/themed/monterrey/reports/moderator_edit.ctp:3
+#, fuzzy
+msgid "page.report.edit.description"
+msgstr "Edit Report"
+
+#: /views/themed/monterrey/reports/search.ctp:3
+#, fuzzy
+msgid "page.report.searchresults.description"
+msgstr "Search Results"
+
+#: /views/themed/monterrey/reports/view.ctp:3
+msgid "page.report.description"
+msgstr "Report"
+
+#: /views/themed/monterrey/tags/reports_with.ctp:3
+msgid "page.tagged_with.description"
+msgstr "Tagged With"
+
+#: /views/themed/monterrey/users/login.ctp:20
+#: /views/users/admin_create.ctp:10
+#: /views/users/admin_edit.ctp:11
+#: /views/users/admin_index.ctp:17
+#: /views/users/login.ctp:13
+#: /views/users/signup.ctp:14
+msgid "user.label.username"
+msgstr "username"
+
+#: /views/themed/monterrey/users/login.ctp:21
+#: /views/themed/monterrey/users/moderator_preferences.ctp:18
+#: /views/users/admin_create.ctp:12
+#: /views/users/admin_edit.ctp:13
+#: /views/users/login.ctp:14
+#: /views/users/moderator_preferences.ctp:11
+#: /views/users/signup.ctp:15
+msgid "user.label.password"
+msgstr "Password"
+
+#: /views/themed/monterrey/users/login.ctp:22
+#: /views/users/login.ctp:15
+msgid "action.login"
+msgstr "Login"
+
+#: /views/themed/monterrey/users/moderator_preferences.ctp:2
+#: /views/users/moderator_preferences.ctp:2
+msgid "page.preferences"
+msgstr "Preferences"
+
+#: /views/themed/monterrey/users/moderator_preferences.ctp:3
+#, fuzzy
+msgid "page.preferences.description"
+msgstr "Preferences"
+
+#: /views/themed/monterrey/users/moderator_preferences.ctp:19
+#: /views/users/moderator_preferences.ctp:12
+msgid "user.label.language"
+msgstr "Language"
+
+#: /views/themed/tjsd/elements/header.ctp:4
+msgid "locale.english"
+msgstr "in english"
+
+#: /views/themed/tjsd/elements/header.ctp:8
+msgid "locale.spanish"
+msgstr "en español"
+
+#: /views/themed/tjsd/elements/homepage_intro.ctp:1
+msgid "homepage.intro.header"
+msgstr "This year %s people saw something and said something different."
+
+#: /views/themed/tjsd/elements/homepage_intro.ctp:2
+msgid "homepage.intro"
+msgstr "Make the difference, report positive acts...report your heroes!"
+
+#: /views/users/admin_create.ctp:2
+msgid "page.createuser"
+msgstr "Create User"
+
+#: /views/users/admin_create.ctp:11
+#: /views/users/admin_edit.ctp:12
+#: /views/users/admin_index.ctp:18
+#: /views/users/signup.ctp:13
+msgid "user.label.email"
+msgstr "Email"
+
+#: /views/users/admin_create.ctp:13
+#: /views/users/admin_edit.ctp:14
+#: /views/users/admin_index.ctp:19
+msgid "user.label.admin"
+msgstr "Should this person have administration privileges?"
+
+#: /views/users/admin_edit.ctp:2
+msgid "page.edituser"
+msgstr "Edit User"
+
+#: /views/users/admin_index.ctp:2
+msgid "page.allusers"
+msgstr "All Users"
+
+#: /views/users/admin_index.ctp:9
+msgid "link.createuser"
+msgstr "Create User"
+
+#: /views/users/admin_index.ctp:20
+msgid "user.label.moderator"
+msgstr "Should this person have moderation privileges?"
+
+#: /views/users/admin_index.ctp:28;29
+msgid "noun.yes"
+msgstr "yes"
+
+#: /views/users/signup.ctp:2
+msgid "page.signup"
+msgstr "Signup"
+
+#: /webroot/test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+

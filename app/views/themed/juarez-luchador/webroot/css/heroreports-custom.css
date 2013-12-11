@@ -1,0 +1,330 @@
+
+body {
+    background-image: url('/theme/juarez-luchador/img/background-stripes.jpg');
+	font-family: "Times", serif;
+	color: #333333;
+}
+
+p {
+    font-face: serif;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+}
+
+label {
+    font-family: "Bernard MT Condensed", "Impact", serif;
+	font-size: 22px;
+}
+
+div.required label {
+    font-weight: normal;	
+    color: #333333;
+}
+
+h2 {
+    background: none;
+    font-family: "Bernard MT Condensed", "Impact", serif;
+	color: #333333;
+}
+
+h3 {
+    font-family: "Bernard MT Condensed", "Impact", serif;
+	font-weight: normal;
+    color: #333333;
+}
+
+a { color: #951b49; }
+a:hover { color: #951b49; }
+a:visited { color: #671432; }
+
+#hr-header {
+	margin-top: 0px;
+	padding: 10px 15px 10px 15px;
+	background-image: url('/theme/juarez-luchador/img/square-peach-80.png');
+}
+#hr-header .hr-large-button {
+	float:right;
+	padding: 10px 20px;
+	margin: 0px;
+	margin-right: 20px;
+}
+#hr-header .hr-large-button a {
+	font-size: 20px;
+}
+
+#hr-nav {
+    background: none;
+    background-image: url('/theme/juarez-luchador/img/square-peach-80.png');
+	border: none;
+	height: auto;
+}
+
+ul#hr-nav-main {
+	margin-left: 20px;
+    float: none;
+	background: none;
+	border: none;
+	display: block;
+	height: 40px;
+}
+
+ul#hr-nav-main li {
+	margin-right: 5px;
+	display: inline-block;
+    float: left;
+    width: 180px;
+}
+
+ul#hr-nav-main li a {
+    border: #333333 2px solid;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    background-image: url('/theme/juarez-luchador/img/square-white-80.png');
+    text-align: right;
+    padding: 4px 4px 4px 0px; 
+    font-size: 18px;
+	color: #333333;
+	display: block;
+	font-family: "Bernard MT Condensed", "Impact", serif;
+}
+
+ul#hr-nav-main li a:hover {
+	background-color: #ffffff;
+	color: #111111;
+}
+
+ul#hr-nav-admin {
+    margin-left: 20px;
+    background: none;
+    border: none;
+    float: none;
+    height: 38px;
+    display: block;
+}
+
+ul#hr-nav-admin li {
+    margin-right: 13px;
+    float: left;
+    display: inline-block;
+    width: 150px;
+}
+
+ul#hr-nav-admin li a {
+    border: #333333 2px solid;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    background-image: url('/theme/juarez-luchador/img/square-white-80.png');
+    text-align: right;
+    padding: 4px; 
+    font-size: 16px;
+    color: #333333;
+    display: block;
+    font-family: "Bernard MT Condensed", "Impact", serif;
+}
+
+ul#hr-nav-admin li a:hover {
+    background-color: #ffffff;
+    color: #111111;
+}
+
+
+#hr-footer {
+    background: none;
+	border: none;
+    background-image: url('/theme/juarez-luchador/img/square-peach-80.png');
+	text-align: left;
+	padding-bottom: 200px;
+	padding-top: 30px;
+}
+
+#hr-pre-content {
+    	
+}
+#hr-pre-content p {
+    border: none;
+    text-align: center;
+	padding: 12px;
+	font-family: "Bernard MT Condensed", "Impact", serif;
+	color: #ffffff;
+	font-size: 26px;
+	text-transform: uppercase;
+	margin: 0px;
+}
+#hr-pre-content p em {
+    background-image: url('/theme/juarez-luchador/img/square-peach-80.png');
+	display: inline-block;
+	font-style: normal;
+	padding: 4px;
+	font-sze: 36px;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;	
+	color: #333333;
+}
+
+#hr-content {
+	background: none;
+	border: none;
+    background-image: url('/theme/juarez-luchador/img/square-white-80.png');	
+	padding-top: 15px;
+	clear: left;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.hr-large-button,
+.hr-form input[type=submit] {
+    background:#eebcce;
+    background: -webkit-gradient(linear, left top, left bottom, from(#eebcce), to(#9a1e4c));
+    background-image: -moz-linear-gradient(top, #eebcce, #9a1e4c);
+    border-color: #9a1e4c;
+    border-width: 2px;
+    font-weight: bold;
+}
+
+.hr-large-button > a:hover,
+.hr-large-button > a {
+    color: #ffffff;
+	font-weight: normal;
+    font-size: 26px;
+}
+
+.hr-large-button {
+    font-family: "Bernard MT Condensed", "Impact", serif;
+}
+
+#hr-home-map{
+	height: 400px;
+}
+
+.hr-home-sidebar {
+	margin-top: 0px;
+}
+
+.hr-report h3 a {
+    font-weight: normal;
+}
+
+.hr-report p {
+}
+
+.hr-pagination {
+    font-family: "Bernard MT Condensed", "Impact", serif;
+	color: #999999;
+    font-size: 26px;
+}
+
+.hr-pagination a {
+	font-weight: normal;
+}
+
+.hr-map-container small {
+	font-size: 16px;
+	display: block;
+	margin-top: 5px;
+}
+
+.hr-create-form {
+    padding-bottom: 20px;	
+}
+
+.hr-create-form .hr-map-container {
+	background-image: url('/theme/juarez-luchador/img/persona.png');
+	background-repeat: no-repeat;
+	background-position: top right;
+	overflow: visible;
+	margin-top: -80px;
+	padding-top: 133px;
+}
+
+.hr-report-list .hr-report {
+	border-top: 1px solid #BBBBBB;
+}
+
+.hr-report-view .hr-report p {
+	line-height: 20px;
+	padding-bottom: 50px;
+}
+
+.hr-sidebar-box {
+    background-image: url('/theme/juarez-luchador/img/square-black-10.png');	
+    border: 1px solid #9a1e4c;
+}
+
+.hr-sidebar-box ul {
+	margin-left: 5px;
+	padding-left: 20px;
+}
+
+.hr-sidebar-box ul li {
+    margin-bottom: 5px;
+}
+
+#hr-blog-recent {
+	border: 0px;
+	background: none;
+}
+
+.hr-moderation-list-links {
+	font-size: 16px;
+}
+
+.hr-report-moderation-controls label {
+	font-family: sans-serif;
+}
+
+/** pending **/
+.hr-report-status-0 {
+	background: inherit;    
+    background-image: url('/theme/juarez-luchador/img/square-yellow-30.png');
+}
+
+/** accepted **/
+.hr-report-status-1 {
+    background: inherit;    
+    background-image: url('/theme/juarez-luchador/img/square-green-30.png');    
+}
+
+/** rejected **/
+.hr-report-status-2 {
+    background: inherit;    
+    background-image: url('/theme/juarez-luchador/img/square-red-30.png');    
+}
+
+#hr-search-form {
+	float: right;
+}
+#hr-search-form input[type='text'] {
+	width: 300px;
+	margin-left: 0px;
+}
+#hr-search-form input[type='submit'] {
+    margin-top: 0px;
+}
+
+#hr-container {
+	width: auto;
+	margin: 0px;
+}
+.hr-width-wrapper {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/** black background **/
+
+.hr-black-background {
+    background-image: url('/theme/juarez-luchador/img/square-black-80.png');
+}
+.hr-black-background h3 {
+    color: #ffffff;
+}
+.hr-black-background .hr-sidebar-box a {
+    color: #ffffff;
+}
+.hr-black-background .hr-sidebar-box ul {
+    padding-left: 0px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+}

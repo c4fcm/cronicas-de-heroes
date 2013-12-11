@@ -1,0 +1,10 @@
+---
+DOWN: 
+  drop_fied: 
+    - reports
+      - address
+UP: 
+  add_field: 
+    reports: 
+      address: 
+        type: string

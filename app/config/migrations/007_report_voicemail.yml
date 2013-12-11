@@ -1,0 +1,10 @@
+---
+DOWN: 
+  drop_fied: 
+    - reports
+      - audio_file
+UP: 
+  add_field: 
+    reports: 
+      audio_file: 
+        type: string
