@@ -1,2 +1,6 @@
 app/config/database.php
 app/config/heroreports.php
+app/tmp/cache/cake_*
+app/tmp/logs/*.log
+app/tmp/cache/models/cake_*
+app/tmp/cache/persistent/cake_*
